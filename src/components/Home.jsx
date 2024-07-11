@@ -11,14 +11,14 @@ const Home = () => {
   >
     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
       <div className="flex flex-col justify-center h-full">
-        <h2 className="text-4xl sm:text-4xl font-bold text-[#fbfbfb]">
-          I'm a Full Stack Web Developer
+        <h2 className="text-4xl sm:text-4xl font-bold text-[#fbfbfb] text-center py-4">
+          I'm a Front-end <br/> Web Developer
         </h2>
-        <p className="text-[#fbfbfb] py-4 max-w-sm">
+        <p className="text-[#fbfbfb] py-4 max-w-md text-justify">
            I am a recent graduated with 2 years of experiences in web development and design.
           I currently enjoy working on web application using technologies such as HTML, CSS, JS, REACT, and MONGODB.
         </p>
-        <div>
+        <div className=' flex flex-col mx-auto justify-center items-center'>
           <Link
             to="about"
             smooth
@@ -32,7 +32,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className="w-2/3 md:w-md mx-auto aspect-square">
+      <div className="w-2/3 md:w-md mx-auto aspect-square mx-6">
         <img
           src={me}
           alt="my profile"

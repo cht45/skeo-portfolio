@@ -1,4 +1,12 @@
 import React from 'react';
+import htmlIcon from '../assets/html-icon.png';
+import icloudIcon from '../assets/icloud-icon.png';
+import githubIcon from '../assets/github-icon.png';
+import reactIcon from '../assets/react-icon.png';
+import cssIcon from '../assets/css-icon.png';
+import jsIcon from '../assets/js-icon.png';
+import mysqlIcon from '../assets/mysql-icon.png';
+import figmaIcon from '../assets/figma-icon.png';
 
 const Skills = () => {
   return (
@@ -6,33 +14,33 @@ const Skills = () => {
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div className=' w-full flex justify-center items-center flex-col mb-7'>
-              <p className='text-6xl font-bold inline border-b-4 border-[#c5c5c5] text-center '>Skills</p>
-              <p className='py-4 text-2xl'>I enjoy diving into and learning new things. Here's a list of technologies I've worked with</p>
+              <p className='text-6xl font-bold inline border-b-4 border-[#c5c5c5] text-justify'>Skills</p>
+              <p className='py-4 text-2xl'>I enjoy diving into and learning new things. <br/>Here's a list of technologies I've worked with</p>
           </div> 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb]'>
-                  <p className='my-4'>HTML</p>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb] flex flex-col justify-center items-center'>
+                <img src={htmlIcon} alt='html' className='my-4 object-fill max-h-32' />
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb]'>
-                  <p className='my-4'>CSS</p>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb] flex flex-col justify-center items-center'>
+                <img src={cssIcon} alt='html' className='my-4 object-fill max-h-32' />
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb]'>
-                  <p className='my-4'>JAVASCRIPT</p>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb] flex flex-col justify-center items-center'>
+                <img src={jsIcon} alt='html' className='my-4 object-fill max-h-32' />
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb]'>
-                  <p className='my-4'>REACT</p>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb] flex flex-col justify-center items-center'>
+                <img src={reactIcon} alt='html' className='my-4 object-fill max-h-32' />
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb]'>
-                  <p className='my-4'>GITHUB</p>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb] flex flex-col justify-center items-center'>
+                <img src={mysqlIcon} alt='html' className='my-4 object-fill max-h-32' />
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb]'>
-                  <p className='my-4'>NODE JS</p>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb] flex flex-col justify-center items-center'>
+                <img src={githubIcon} alt='html' className='my-4 object-fill max-h-32' />
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb]'>
-                  <p className='my-4'>MONGO DB</p>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb] flex flex-col justify-center items-center'>
+                <img src={icloudIcon} alt='html' className='my-4 object-fill max-h-32' />
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb]'>
-                  <p className='my-4'>FIREBASE</p>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 border-2 border-[#fbfbfb] flex flex-col justify-center items-center'>
+                <img src={figmaIcon} alt='html' className='my-4 object-fill max-h-32' />
               </div>
           </div>
       </div>
